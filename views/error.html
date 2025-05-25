@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="max-w-xl mx-auto py-12 text-center">
+    <h1 class="text-4xl font-bold text-red-600 mb-4">Error</h1>
+    <p class="text-xl text-gray-600 mb-4">{{ message }}</p>
+    {% if error.status %}
+    <p class="text-gray-500">Status: {{ error.status }}</p>
+    {% endif %}
+    <a href="/" class="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">Go Home</a>
+</div>
+{% endblock %} 

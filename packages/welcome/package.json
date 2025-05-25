@@ -1,0 +1,10 @@
+{
+  "name": "@ibm-org/welcome",
+  "version": "1.0.0",
+  "description": "A custom greeting package for the marketing website",
+  "main": "index.js",
+  "type": "commonjs",
+  "keywords": ["greeting", "custom"],
+  "author": "ptc",
+  "license": "MIT"
+} 
